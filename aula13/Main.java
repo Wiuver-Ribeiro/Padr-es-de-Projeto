@@ -15,7 +15,7 @@ public class Main {
         int assinaturaBase = scanner.nextInt();
         opcoesSelecionadas.add(assinaturaBase);
 
-        System.out.println("Deseja adicionar algum pacote opcional?");
+        System.out.println("Deseja adicionar algum pacote opcional? Digite 0 para não adicionar, ou o número do pacote):");
             int pacoteOpcional = scanner.nextInt();
 
         while (pacoteOpcional != 0) {
